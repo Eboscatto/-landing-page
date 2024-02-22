@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    box-sizing: border-box;  
+    width: 100%;  
+    height: 100vh;
+}
+
+.cabecalho {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.cabecalho__titulo {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+.imagem {
+    text-align:left;
+    margin: 20px 0;
+}
+
+.imagem__texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size: 1.5rem;
+    color: darkblue;
+    font-weight: 700;
+    text-align: center;
+    margin: -20px 0;
+}
+img {
+    max-width: 250px;
+    height: auto;
+    margin-left: 5%;
+}
+
+.descricao {
+    width: 100%;
+    margin: -16% 10% 0 25%;
+    
+}
+
+.descricao__texto {
+    width: 68%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color:black;    
+}
+
+.descricao__lista {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem; 
+    color: black;
+}
+
+.formulario {
+    width: 80%;
+    display: flex;   
+    flex-direction: column;    
+    background-color: #f7f7f7;    
+    padding: 20px;
+    text-align:center;
+    margin: 0 10% 0 10%;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+label {
+    width: 100%;
+    text-align: justify;
+    margin-left: 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+} 
+
+input {   
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+
+button {
+   width: 30%;
+   padding: 10px;
+   margin: 10px;   
+}
+
+footer {
+    width: 100vw; 
+    background-color: #007bff; 
+    margin-top: 20px;
+}
+
+.continer, p {  
+    width: 100%;  
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+}
+
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
